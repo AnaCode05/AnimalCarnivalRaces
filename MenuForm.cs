@@ -16,5 +16,28 @@ namespace AnimalCarnivalRaces
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Closes the form and all components from the menu strip
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnLions_Click(object sender, EventArgs e)
+        {
+            GameForm gameForm = new GameForm();
+            gameForm.Show();
+        }
+
+        
     }
 }
