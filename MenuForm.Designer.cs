@@ -49,7 +49,7 @@
             exitToolStripMenuItem});
             menuStrip1.Location = new System.Drawing.Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new System.Drawing.Size(800, 32);
+            menuStrip1.Size = new System.Drawing.Size(800, 29);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -83,6 +83,7 @@
             this.btnElephants.TabIndex = 2;
             this.btnElephants.Text = "The Elephant";
             this.btnElephants.UseVisualStyleBackColor = false;
+            this.btnElephants.Click += new System.EventHandler(this.btnElephants_Click);
             // 
             // btnLions
             // 
@@ -110,6 +111,7 @@
             this.btnHensRoosters.TabIndex = 4;
             this.btnHensRoosters.Text = "Hens and Roosters";
             this.btnHensRoosters.UseVisualStyleBackColor = false;
+            this.btnHensRoosters.Click += new System.EventHandler(this.btnHensRoosters_Click);
             // 
             // MenuForm
             // 

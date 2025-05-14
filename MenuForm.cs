@@ -28,16 +28,40 @@ namespace AnimalCarnivalRaces
         }
 
         /// <summary>
-        /// 
+        /// Creates a lion race form
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnLions_Click(object sender, EventArgs e)
         {
-            GameForm gameForm = new GameForm();
-            gameForm.Show();
-        }
+            GameForm lionRace = new GameForm();
+            lionRace.Show();
+            lionRace.animalType = "Lions";
 
-        
+        }
+        /// <summary>
+        /// Creates a hen and rooster race form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnHensRoosters_Click(object sender, EventArgs e)
+        {
+            GameForm henRoosterRace = new GameForm();
+            henRoosterRace.Show();
+            henRoosterRace.animalType = "Hens & Roosters";
+
+        }
+        /// <summary>
+        /// Creates an elephant race form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnElephants_Click(object sender, EventArgs e)
+        {
+            GameForm elephantRace = new GameForm();
+            elephantRace.Show();
+            elephantRace.animalType = "Elephants";
+
+        }
     }
 }
