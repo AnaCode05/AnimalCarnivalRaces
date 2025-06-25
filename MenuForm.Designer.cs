@@ -57,7 +57,7 @@
             // 
             exitToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new System.Drawing.Size(52, 28);
+            exitToolStripMenuItem.Size = new System.Drawing.Size(52, 25);
             exitToolStripMenuItem.Text = "&Exit";
             exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -127,7 +127,7 @@
             this.ForeColor = System.Drawing.Color.White;
             this.MainMenuStrip = menuStrip1;
             this.Name = "MenuForm";
-            this.Text = "Form1";
+            this.Text = "Race Menu";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             this.ResumeLayout(false);

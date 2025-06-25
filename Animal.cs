@@ -68,9 +68,16 @@ namespace AnimalCarnivalRaces
             if (this.Right >= ownerForm.pnlFinishLine.Left)
             {
                 IsFinished = true;
-                ownerForm.
+                ownerForm.result += this.Text + "\n";
+                GameForm.fResult += this.Text + "\n";
+                int intResult = -1;
+                bool isInteger = int.TryParse(this.Text, out intResult);
+                if (isInteger)
+                {
+                    intResult++;
+                }
+                aResult += "Animal " + intResult + "\n";
             }
         }
-
     }
 }

@@ -35,6 +35,7 @@
             this.btnShowWinners = new System.Windows.Forms.Button();
             this.btnNewRace = new System.Windows.Forms.Button();
             this.pnlFinishLine = new System.Windows.Forms.Panel();
+            this.btnEndRace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMessages
@@ -79,6 +80,7 @@
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start Race!";
             this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnShowWinners
             // 
@@ -91,6 +93,7 @@
             this.btnShowWinners.TabIndex = 4;
             this.btnShowWinners.Text = "Show Winner List";
             this.btnShowWinners.UseVisualStyleBackColor = false;
+            this.btnShowWinners.Click += new System.EventHandler(this.btnShowWinners_Click);
             // 
             // btnNewRace
             // 
@@ -103,6 +106,7 @@
             this.btnNewRace.TabIndex = 5;
             this.btnNewRace.Text = "New Race";
             this.btnNewRace.UseVisualStyleBackColor = false;
+            this.btnNewRace.Click += new System.EventHandler(this.btnNewRace_Click);
             // 
             // pnlFinishLine
             // 
@@ -113,12 +117,26 @@
             this.pnlFinishLine.Size = new System.Drawing.Size(27, 1249);
             this.pnlFinishLine.TabIndex = 6;
             // 
+            // btnEndRace
+            // 
+            this.btnEndRace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnEndRace.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEndRace.ForeColor = System.Drawing.Color.White;
+            this.btnEndRace.Location = new System.Drawing.Point(750, 383);
+            this.btnEndRace.Name = "btnEndRace";
+            this.btnEndRace.Size = new System.Drawing.Size(138, 54);
+            this.btnEndRace.TabIndex = 7;
+            this.btnEndRace.Text = "End Race";
+            this.btnEndRace.UseVisualStyleBackColor = false;
+            this.btnEndRace.Click += new System.EventHandler(this.btnEndRace_Click);
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(914, 1324);
+            this.Controls.Add(this.btnEndRace);
             this.Controls.Add(this.pnlFinishLine);
             this.Controls.Add(this.btnNewRace);
             this.Controls.Add(this.btnShowWinners);
@@ -142,5 +160,6 @@
         private System.Windows.Forms.Button btnShowWinners;
         private System.Windows.Forms.Button btnNewRace;
         public System.Windows.Forms.Panel pnlFinishLine;
+        private System.Windows.Forms.Button btnEndRace;
     }
 }
