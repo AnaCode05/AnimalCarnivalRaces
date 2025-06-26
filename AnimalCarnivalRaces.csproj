@@ -109,9 +109,9 @@
     <Content Include="Resources\Lion\lion3.jpg" />
     <Content Include="Resources\Lion\lion4.jpg" />
     <Content Include="Resources\Lion\lion5.jpg" />
-    <Content Include="Resources\Songs\Hens&amp;Roosters.wav" />
-    <Content Include="Resources\Songs\LionsRoyalMarch.wav" />
-    <Content Include="Resources\Songs\TheElephant.wav" />
+    <Content Include="Songs\Hens&amp;Roosters.wav" />
+    <Content Include="Songs\LionsRoyalMarch.wav" />
+    <Content Include="Songs\TheElephant.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

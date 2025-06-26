@@ -35,8 +35,9 @@ namespace AnimalCarnivalRaces
         private void btnLions_Click(object sender, EventArgs e)
         {
             GameForm lionRace = new GameForm();
-            lionRace.Show();
             lionRace.animalType = "Lions";
+            lionRace.Text = lionRace.animalType;
+            lionRace.Show();
 
         }
         /// <summary>
@@ -47,8 +48,9 @@ namespace AnimalCarnivalRaces
         private void btnHensRoosters_Click(object sender, EventArgs e)
         {
             GameForm henRoosterRace = new GameForm();
-            henRoosterRace.Show();
             henRoosterRace.animalType = "Hens & Roosters";
+            henRoosterRace.Text = henRoosterRace.animalType;
+            henRoosterRace.Show();
 
         }
         /// <summary>
@@ -59,8 +61,9 @@ namespace AnimalCarnivalRaces
         private void btnElephants_Click(object sender, EventArgs e)
         {
             GameForm elephantRace = new GameForm();
-            elephantRace.Show();
             elephantRace.animalType = "Elephants";
+            elephantRace.Text = elephantRace.animalType;
+            elephantRace.Show();
 
         }
     }

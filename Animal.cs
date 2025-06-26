@@ -10,7 +10,7 @@ namespace AnimalCarnivalRaces
     /// <summary>
     /// Generic Animal class - all animals derive their actions and attributes from this. It inherits from and behaves like a PictureBox control.
     /// </summary>
-    abstract class Animal : PictureBox
+    public class Animal : PictureBox
     {
         public static string aResult; // static result in Animal
 

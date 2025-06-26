@@ -55,6 +55,7 @@
             this.txtNumberOfAnimals.Name = "txtNumberOfAnimals";
             this.txtNumberOfAnimals.Size = new System.Drawing.Size(164, 31);
             this.txtNumberOfAnimals.TabIndex = 1;
+            this.txtNumberOfAnimals.TextChanged += new System.EventHandler(this.txtNumberOfAnimals_TextChanged);
             // 
             // btnGenerate
             // 
