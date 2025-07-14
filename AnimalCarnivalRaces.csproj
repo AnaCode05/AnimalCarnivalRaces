@@ -112,6 +112,9 @@
     <Content Include="Songs\Hens&amp;Roosters.wav" />
     <Content Include="Songs\LionsRoyalMarch.wav" />
     <Content Include="Songs\TheElephant.wav" />
+    <Content Include="Tracks\Hens&amp;Roosters.wav" />
+    <Content Include="Tracks\LionsRoyalMarch.wav" />
+    <Content Include="Tracks\TheElephant.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -141,7 +141,7 @@ namespace AnimalCarnivalRaces
                             break;
                         case "Elephants":
                         default:
-                            player.SoundLocation = @"C:\Users\Owner\Documents\Programming_Files\C#\AnimalCarnivalRaces\Songs\TheElephant.wav";
+                            player.SoundLocation = @"C:\\Users\\Owner\\Documents\\Programming_Files\\C#\\AnimalCarnivalRaces\\Songs\\TheElephant.wav";
                             break;
                     }
                     player.Play(); // Play the selected track
